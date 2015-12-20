@@ -86,9 +86,7 @@
             NeoBundle 'honza/vim-snippets'
             NeoBundle 'MarcWeber/vim-addon-mw-utils'
             NeoBundle 'tomtom/tlib_vim'
-
-            " from bitbucket
-            NeoBundle 'bb:abudden/taghighlight'
+            NeoBundle 'skroll/vim-taghighlight'
 
             " from vim-scripts
             NeoBundle 'a.vim'
