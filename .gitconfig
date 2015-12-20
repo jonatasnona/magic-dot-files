@@ -1,0 +1,11 @@
+[user]
+    name =
+    email =
+[color]
+    ui = auto
+    diff = auto
+    status = auto
+    branch = auto
+[alias]
+    co = checkout
+    rank = shortlog -s -t
