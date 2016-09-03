@@ -24,3 +24,7 @@ https://github.com/creationix/nvm
 ## VirtualBox
 
 https://www.virtualbox.org/wiki/Linux_Downloads
+
+## Vim
+
+https://github.com/Shougo/neobundle.vim
