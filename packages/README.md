@@ -28,3 +28,7 @@ https://www.virtualbox.org/wiki/Linux_Downloads
 ## Vim
 
 https://github.com/Shougo/neobundle.vim
+
+## Java
+
+https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04
