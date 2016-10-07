@@ -56,6 +56,7 @@
             NeoBundle 'vim-airline/vim-airline-themes'
             NeoBundle 'tpope/vim-repeat'
             NeoBundle 'tpope/vim-surround'
+            NeoBundle 'dhruvasagar/vim-table-mode'
             "NeoBundle 'xolox/vim-session', {'depends' :
             "    \ [ 'xolox/vim-misc', ]}
 
