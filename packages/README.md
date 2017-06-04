@@ -26,6 +26,7 @@ https://github.com/creationix/nvm
 https://www.virtualbox.org/wiki/Linux_Downloads
 http://www.howtogeek.com/howto/2845/install-guest-additions-to-windows-and-linux-vms-in-virtualbox/
 http://www.howtogeek.com/187535/how-to-copy-and-paste-between-a-virtualbox-host-machine-and-a-guest-machine/
+https://tecadmin.net/install-oracle-virtualbox-on-ubuntu/
 
 ## Vim
 
