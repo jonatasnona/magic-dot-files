@@ -24,10 +24,28 @@
     if !1 | finish | endif
 
     if has('vim_starting')
-        set runtimepath+=~/.vim/bundle/neobundle.vim/
+        " setup for vim
+        " set runtimepath+=~/.vim/bundle/neobundle.vim/
+
+        " setup for nvim
+        set runtimepath+=~/.config/nvim/bundle/neobundle.vim/
+        set runtimepath+=~/.config/nvim/
     endif
 
-    call neobundle#begin(expand('~/.vim/bundle/'))
+    let neobundle_readme=expand('~/.config/nvim/bundle/neobundle.vim/README.md')
+
+    if !filereadable(neobundle_readme)
+        echo "Installing NeoBundle..."
+        echo ""
+        silent !mkdir -p ~/.config/nvim/bundle
+        silent !git clone https://github.com/Shougo/neobundle.vim ~/.config/nvim/bundle/neobundle.vim/
+        let g:not_finish_neobundle = "yes"
+    endif
+
+    " setup for vim
+    " call neobundle#begin(expand('~/.vim/bundle/'))
+
+    call neobundle#begin(expand('$HOME/.config/nvim/bundle'))
 
     " Bundles {
 
