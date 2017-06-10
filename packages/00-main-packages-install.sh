@@ -8,3 +8,4 @@ sudo apt-get install aptitude vim git git-core build-essential \
 pip install httpstat mycli
 
 vagrant plugin install mutate
+vagrant plugin install vagrant-vbguest
