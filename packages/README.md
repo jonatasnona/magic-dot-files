@@ -28,9 +28,9 @@ http://www.howtogeek.com/howto/2845/install-guest-additions-to-windows-and-linux
 http://www.howtogeek.com/187535/how-to-copy-and-paste-between-a-virtualbox-host-machine-and-a-guest-machine/
 https://tecadmin.net/install-oracle-virtualbox-on-ubuntu/
 
-## Vim
+## Neovim
 
-https://github.com/Shougo/neobundle.vim
+https://github.com/neovim/neovim/wiki/Installing-Neovim
 
 ## Java
 

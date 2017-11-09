@@ -24,9 +24,6 @@
     if !1 | finish | endif
 
     if has('vim_starting')
-        " setup for vim
-        " set runtimepath+=~/.vim/bundle/neobundle.vim/
-
         " setup for nvim
         set runtimepath+=~/.config/nvim/bundle/neobundle.vim/
         set runtimepath+=~/.config/nvim/
@@ -41,9 +38,6 @@
         silent !git clone https://github.com/Shougo/neobundle.vim ~/.config/nvim/bundle/neobundle.vim/
         let g:not_finish_neobundle = "yes"
     endif
-
-    " setup for vim
-    " call neobundle#begin(expand('~/.vim/bundle/'))
 
     call neobundle#begin(expand('$HOME/.config/nvim/bundle'))
 
